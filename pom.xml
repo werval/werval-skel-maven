@@ -13,7 +13,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <qiweb.version>0.2.0.Alpha</qiweb.version>
+        <qiweb.version>0</qiweb.version>
     </properties>
 
     <repositories>
@@ -77,30 +77,6 @@
                 <groupId>org.qiweb</groupId>
                 <artifactId>org.qiweb.maven</artifactId>
                 <version>${qiweb.version}</version>
-            </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>appassembler-maven-plugin</artifactId>
-                <version>1.8</version>
-                <executions>
-                    <execution>
-                        <id>app-assembly</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>assemble</goal>
-                        </goals>
-                        <configuration>
-                            <repositoryLayout>flat</repositoryLayout>
-                            <repositoryName>lib</repositoryName>
-                            <programs>
-                                <program>
-                                    <id>${project.artifactId}</id>
-                                    <mainClass>org.qiweb.server.bootstrap.Main</mainClass>
-                                </program>
-                            </programs>
-                        </configuration>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>
