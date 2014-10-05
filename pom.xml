@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.qiweb.samples</groupId>
-    <artifactId>qiweb-sample-maven</artifactId>
+    <groupId>org.qiweb.skel</groupId>
+    <artifactId>qiweb-skel-maven</artifactId>
     <version>0</version>
 
     <name>${project.artifactId}</name>
-    <description>QiWeb Skeleton - Maven Quickstart</description>
+    <description>QiWeb Skeleton - Maven</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
