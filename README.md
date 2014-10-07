@@ -1,0 +1,2 @@
+# Maven based QiWeb application
+
