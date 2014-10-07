@@ -6,14 +6,14 @@
 
     <groupId>org.qiweb.skel</groupId>
     <artifactId>qiweb-skel-maven</artifactId>
-    <version>0</version>
+    <version>0.3.0-beta</version>
 
     <name>${project.artifactId}</name>
     <description>QiWeb Skeleton - Maven</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <qiweb.version>0</qiweb.version>
+        <qiweb.version>0.3.0-beta</qiweb.version>
     </properties>
 
     <repositories>
