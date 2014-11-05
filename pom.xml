@@ -13,7 +13,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <qiweb.version>[0.3,)</qiweb.version>
+        <qiweb.version>0.3.3</qiweb.version>
     </properties>
 
     <repositories>
