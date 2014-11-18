@@ -30,6 +30,11 @@
             <artifactId>org.qiweb.api</artifactId>
             <version>${qiweb.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.qiweb</groupId>
+            <artifactId>org.qiweb.modules.json</artifactId>
+            <version>${qiweb.version}</version>
+        </dependency>
         <!-- Add application compile dependencies here -->
 
         <dependency>
@@ -50,6 +55,12 @@
             <groupId>org.qiweb</groupId>
             <artifactId>org.qiweb.test</artifactId>
             <version>${qiweb.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jayway.restassured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>2.3.4</version>
             <scope>test</scope>
         </dependency>
         <!-- Add application test dependencies here -->
