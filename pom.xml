@@ -13,7 +13,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <qiweb.version>0.3.3</qiweb.version>
+        <qiweb.version>0.4.0</qiweb.version>
     </properties>
 
     <repositories>
@@ -30,6 +30,11 @@
             <artifactId>org.qiweb.api</artifactId>
             <version>${qiweb.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.qiweb</groupId>
+            <artifactId>org.qiweb.modules.json</artifactId>
+            <version>${qiweb.version}</version>
+        </dependency>
         <!-- Add application compile dependencies here -->
 
         <dependency>
@@ -39,9 +44,9 @@
             <scope>runtime</scope>
         </dependency>
         <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>1.1.2</version>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.7</version>
             <scope>runtime</scope>
         </dependency>
         <!-- Add application runtime dependencies here -->
@@ -50,6 +55,12 @@
             <groupId>org.qiweb</groupId>
             <artifactId>org.qiweb.test</artifactId>
             <version>${qiweb.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jayway.restassured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>2.3.4</version>
             <scope>test</scope>
         </dependency>
         <!-- Add application test dependencies here -->
