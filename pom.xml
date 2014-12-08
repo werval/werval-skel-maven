@@ -21,6 +21,10 @@
             <id>qiwebRepo</id>
             <url>https://repo.codeartisans.org/qiweb</url>
         </repository>
+        <repository>
+            <id>jcenter</id>
+            <url>https://jcenter.bintray.com</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -35,7 +39,7 @@
             <artifactId>org.qiweb.modules.json</artifactId>
             <version>${qiweb.version}</version>
         </dependency>
-        <!-- Add application compile dependencies here -->
+        <!-- Add application's compile dependencies here -->
 
         <dependency>
             <groupId>org.qiweb</groupId>
@@ -49,7 +53,7 @@
             <version>1.7.7</version>
             <scope>runtime</scope>
         </dependency>
-        <!-- Add application runtime dependencies here -->
+        <!-- Add application's runtime dependencies here -->
 
         <dependency>
             <groupId>org.qiweb</groupId>
@@ -60,10 +64,10 @@
         <dependency>
             <groupId>com.jayway.restassured</groupId>
             <artifactId>rest-assured</artifactId>
-            <version>2.3.4</version>
+            <version>2.4.0</version>
             <scope>test</scope>
         </dependency>
-        <!-- Add application test dependencies here -->
+        <!-- Add application's test dependencies here -->
 
     </dependencies>
 
@@ -71,6 +75,10 @@
         <pluginRepository>
             <id>qiwebRepo</id>
             <url>https://repo.codeartisans.org/qiweb</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>jcenter</id>
+            <url>https://jcenter.bintray.com</url>
         </pluginRepository>
     </pluginRepositories>
 
