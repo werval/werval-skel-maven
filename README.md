@@ -1,12 +1,12 @@
-# QiWeb Maven Skeleton
+# Werval Maven Skeleton
 
-To run in development mode: `mvn qiweb:devshell`
+To run in development mode: `mvn werval:devshell`
 
-To run in production mode: `mvn qiweb:start`
+To run in production mode: `mvn werval:start`
 
 To run tests: `mvn test`
 
-To see the help of the QiWeb plugin: `mvn qiweb:help`
+To see the help of the Werval plugin: `mvn werval:help`
 
-The QiWeb documentation is available at http://localhost:23023/@doc in
+The Werval documentation is available at http://localhost:23023/@doc in
 development mode.
