@@ -13,7 +13,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <werval.version>0.6.0</werval.version>
+        <werval.version>0.7.0</werval.version>
     </properties>
 
     <repositories>
@@ -46,7 +46,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
-            <version>1.7.7</version>
+            <version>1.7.10</version>
             <scope>runtime</scope>
         </dependency>
         <!-- Add application's runtime dependencies here -->
