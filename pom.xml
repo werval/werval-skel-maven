@@ -13,7 +13,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <werval.version>0.7.4</werval.version>
+        <werval.version>0.7.5</werval.version>
     </properties>
 
     <repositories>
